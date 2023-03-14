@@ -1,0 +1,68 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0 auto;
+  width: 100%;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -0.03em;
+}
+.nav__section {
+  padding-bottom: 94px;
+  position: relative;
+  background-image: url(/images/background-header-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+.nav__container {
+  margin: 0 auto;
+  width: 1150px;
+  height: 765px;
+}
+.nav__text-background-img {
+  margin-top: 36px;
+  margin-bottom: 259px;
+  position: relative;
+}
+.nav__text {
+  position: absolute;
+  top: 27px;
+  left: 196px;
+  font-weight: 700;
+  font-size: 42.4138px;
+  line-height: 55px;
+  letter-spacing: -0.11em;
+  text-transform: uppercase;
+  color: #1BFF07;
+}
+.nav__lists{
+  margin-top: 36px;
+  display: inline;
+  float: right;
+}
+.nav__list {
+  margin-left: 50px;
+  font-size: 18px;
+  line-height: 23px;
+  color: white;
+  text-decoration: none;
+}
+.nav__text-content {
+  margin-bottom: 29px;
+  width: 430px;
+  height: 103px;
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.nav__text-about-me {
+  width: 919px;
+  height: 205px;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 70px;
+  color: #1BFF07;
+}
