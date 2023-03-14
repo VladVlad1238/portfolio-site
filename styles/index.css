@@ -8,6 +8,7 @@ body {
   font-weight: 400;
   font-style: normal;
   letter-spacing: -0.03em;
+  background: black;
 }
 .nav__section {
   padding-bottom: 94px;
@@ -28,6 +29,8 @@ body {
   position: relative;
 }
 .nav__text {
+  width: 1150px;
+  display: block;
   position: absolute;
   top: 27px;
   left: 196px;
@@ -65,4 +68,35 @@ body {
   font-size: 80px;
   line-height: 70px;
   color: #1BFF07;
+}
+.portfolio__container {
+  margin: 0 auto;
+  width: 1150px;
+}
+.portfolio__header {
+  margin: 0 auto;
+  width: 1150px;
+  margin-top: 150px;
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+}
+.portfolio__img {
+  position: relative;
+  width: 1150px;
+  height: 550px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url(/images/metrika-prject.png);
+  border-radius: 30px;
+}
+p .portfolio__text-landing {
+  position: absolute;
+  top: 300px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  color: white;
 }
