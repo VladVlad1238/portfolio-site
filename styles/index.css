@@ -84,19 +84,57 @@ body {
   letter-spacing: -0.03em;
   color: #FFFFFF;
 }
-.portfolio__img {
+.portfolio__item {
+  margin: 0 auto;
   position: relative;
   width: 1150px;
+}
+.portfolio__img {
+  width: 1150px;
   height: 550px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url(/images/metrika-prject.png);
   border-radius: 30px;
 }
-p .portfolio__text-landing {
+.portfolio__item-title {
   position: absolute;
-  top: 300px;
+  margin-bottom: 5px;
+  bottom: 94px;
+  left: 50px;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 35px;
+  line-height: 46px;
   letter-spacing: -0.03em;
   color: white;
+}
+.portfolio__text-description {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: -0.03em;
+  color: white;
+}
+.portfolio__button-container {
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 1150px;
+}
+.portfolio__btn {
+  width: 582px;
+  height: 153px;
+  background: #1BFF07;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #000000;
+}
+.portfolio__btn:hover {
+  background: transparent;
+  color: #1BFF07;
+  border: 1px solid #1BFF07;
 }
