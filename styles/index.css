@@ -242,3 +242,43 @@ body {
 .services__item:nth-last-child(1) {
   margin-bottom: 150px;
 }
+.contacts__section {
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 150px;
+  width: 1400px;
+  height: 717px;
+  background-image: url(/images/background\ pre-footer\ img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+.contacts__title {
+  position: absolute;
+  top: 320px;
+  left: 125px;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+}
+.contacts__container{
+  position: absolute;
+  top: 408px;
+  left: 125px;
+}
+.contacts__items {
+  margin-bottom: 20px;
+}
+.contacts__content {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.contacts__content:hover {
+  color: #1BFF07;
+}
