@@ -7,36 +7,50 @@
   <link rel="stylesheet" href="/styles/reset.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
   <!--header start-->
-  <div class="nav__section">
+  <!--nav section start-->
+  <div class="header__section">
     <div class="nav__container">
-      <img src="/images/backgorund-header.png" alt="black-background" class="nav__text-background-img">
-      <p class="nav__text">VS</p>
-        <div class="nav__lists">
-          <a href="#" class="nav__list">portfolio</a>
-          <a href="#" class="nav__list">competencies</a>
-          <a href="#" class="nav__list">services</a>
-          <a href="#" class="nav__list">contacts</a>
-        </div>
+      <a href="#" class="nav__logo">Sikalo</a>
+      <ul class="nav__items">
+        <li class="nav__item">
+          <a href="#portfolio__section" class="nav__content">portfolio</a>
+        </li>
+        <li class="nav__item">
+          <a href="#competencies__section" class="nav__content">competencies</a>
+        </li>
+        <li class="nav__item">
+          <a href="#services__section" class="nav__content">services</a>
+        </li>
+        <li class="nav__item">
+          <a href="#contacts__section" class="nav__content">contacts</a>
+        </li>
+      </ul>
+    
+    </div>
+  <!--nav section finish-->
+  <!--header content start-->
+      <div class="header-content__container">
         <p class="nav__text-content">I develop websites for small and medium-sized 
           businesses that increase the prestige of the company 
           and allow you to stand out from the competition
         </p>
         <p class="nav__text-about-me">Hi!, I'm Vlad - front-end developer and website designer
         </p>
-    </div>
+      </div>
   </div>
+  <!--header content finish-->
   <!--header finish-->
 
   <!--main start-->
   <!--portfolio section start-->
-  <div class="portfolio__section">
+  <div class="portfolio__section" id="portfolio__section">
     <h1 class="portfolio__header">The latest projects</h1>
       <ul class="portfolio__container">
         <li class="portfolio__item">
@@ -48,7 +62,7 @@
         </li>
 
         <li class="portfolio__item">
-          <a href="#" target="_blank" class="portfoli__link">
+          <a href="https://vladvlad1238.github.io/headphones-project/" target="_blank" class="portfoli__link">
             <img  class="portfolio__img" src="/images/headphones-project.png" alt="Nothing-store">
           </a>
           <h2 class="portfolio__item-title">Nothing Store</h2>
@@ -56,7 +70,7 @@
         </li>
 
         <li class="portfolio__item">
-          <a href="№" target="_blank" class="portfoli__link">
+          <a href="#" target="_blank" class="portfoli__link">
             <img  class="portfolio__img" src="/images/fesiyen-project.png" alt="Fesiyen-project">
           </a>
           <h2 class="portfolio__item-title">Fesiyen</h2>
@@ -69,7 +83,7 @@
   <!--portfolio button start-->
   <div class="portfolio__button-section">
     <div class="portfolio__button-container">
-      <a href="#" class="portfolio__button">
+      <a href="#portfolio__section" class="portfolio__button">
         <button class="portfolio__btn">All projects</button>
       </a>
     </div>
@@ -77,7 +91,7 @@
   <!--portfolio button finish-->
 
   <!--competencies section start-->
-  <div class="competencies__section">
+  <div class="competencies__section" id="competencies__section">
     <h2 class="competencies__header">My competencies</h2>
     <ul class="competencies__container">
       <li class="competencies__item">
@@ -130,7 +144,7 @@
   <!--competencies section finish-->
 
   <!--services section start-->
-  <div class="services__section">
+  <div class="services__section" id="services__section">
     <h2 class="services__header">I help to realize a wide range of tasks</h2>
     <ul class="services__container">
       <li class="services__item">
@@ -169,17 +183,17 @@
   <!--services section finish-->
 
   <!--prefooter section start-->
-  <div class="contacts__section">
+  <div class="contacts__section" id="contacts__section">
     <h2 class="contacts__title">contact me:</h2>
     <ul class="contacts__container">
       <li class="contacts__items">
         <a href="" class="contacts__content">instagram</a>
       </li>
       <li class="contacts__items">
-        <a href="" class="contacts__content">telegram</a>
+        <a href="https://t.me/Vlad1996S" class="contacts__content" target="_blank">telegram</a>
       </li>
       <li class="contacts__items">
-        <a href="" class="contacts__content">mail</a>
+        <a href="mailto:vladislavmediol@gmail.com"class="contacts__content">mail</>
       </li>
     </ul>
   </div>
