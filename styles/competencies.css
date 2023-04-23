@@ -41,7 +41,7 @@
 }
 .competencies__title {
   margin-bottom: 15px;
-  font-size: 35px;
+  font-size: 34px;
   line-height: 46px;
   color: #1BFF07;
 }
@@ -104,11 +104,9 @@
     margin-bottom: 15px;
     font-size: 28px;
     line-height: 36px;
-    color: #1BFF07;
   }
   .competencies__content {
     font-size: 18px;
     line-height: 23px;
-    color: #FFFFFF;
   }
 }
