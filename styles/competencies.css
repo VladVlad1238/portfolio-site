@@ -28,16 +28,16 @@
   background-color: #1BFF07
 }
 .competencies__item:nth-child(1)::before {
-  background-image: url(/images/html.png);
+  background-image: url(../images/html.png);
 }
 .competencies__item:nth-child(2)::before {
-  background-image: url(/images/js.png);
+  background-image: url(../images/js.png);
 }
 .competencies__item:nth-child(3)::before {
-  background-image: url(/images/phone.png);
+  background-image: url(../images/phone.png);
 }
 .competencies__item:nth-child(4)::before {
-  background-image: url(/images/react.png);
+  background-image: url(../images/react.png);
 }
 .competencies__title {
   margin-bottom: 15px;
