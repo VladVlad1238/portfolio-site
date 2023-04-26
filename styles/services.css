@@ -89,10 +89,11 @@
   }
   .services__title {
     width: 100%;
-    font-size: 43px;
+    font-size: 35px;
     line-height: 110%;
   }
   .services__content {
+    padding-bottom: 55px;
     width: 100%;
     font-size: 16px;
     line-height: 23px;

@@ -45,6 +45,7 @@
   height: 70px;
   font-size: 22px;
   line-height: 29px;
+  border: none;
   border-radius: 10px;
   color: black;
   background: #1BFF07;
@@ -85,5 +86,55 @@
     height: 47px;
     font-size: 16px;
     line-height: 21px;
+  }
+}
+@media (max-width: 899px) {
+  .contacts__title {
+    width: 320px;
+    height: 115px;
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .contacts__form {
+    margin-bottom: 40px;
+    width: 320px;
+    gap: 26px;
+  }
+}
+@media (max-width: 767px) {
+  .contacts__section {
+    background-image: url(../images/contacts-background-small.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+  }
+  .contacts__wrapper{
+    padding-top: 50px;
+    padding-left: 0;
+    gap: 40px;
+  }
+  .contacts__title {
+    width: 100%;
+    height: 112px;
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .contacts__form {
+    margin-bottom: 40px;
+    width: 100%;
+    gap: 15px;
+  }
+  .contacts__input {
+    padding: 10px 0 8px 21px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .contacts__btn {
+    margin-bottom: 48px;
+    margin-left: 0;
+    width: 100%;
+    height: 43px;
+    font-size: 15px;
+    line-height: 20px;
   }
 }
