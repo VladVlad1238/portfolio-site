@@ -9,43 +9,91 @@
   <link rel="stylesheet" href="styles/reset.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
   <!--header start-->
-  <!--nav section start--
-  <div class="header__section">
-    <div class="nav__container">
-      <a href="#" class="nav__logo">Sikalo</a>
-      <ul class="nav__items">
-        <li class="nav__item">
-          <a href="#portfolio__section" class="nav__content">portfolio</a>
-        </li>
-        <li class="nav__item">
-          <a href="#competencies__section" class="nav__content">competencies</a>
-        </li>
-        <li class="nav__item">
-          <a href="#services__section" class="nav__content">services</a>
-        </li>
-        <li class="nav__item">
-          <a href="#contacts__section" class="nav__content">contacts</a>
-        </li>
-      </ul>
-    
-    </div>
-  <!--nav section finish-->
-  <!--header content start--
-      <div class="header-content__container">
-        <p class="nav__text-content">I develop websites for small and medium-sized 
+  <!--nav section start-->
+  <header class="header__section">
+    <div class="header__container container">
+      <div class="header__inner">
+        <p class="nav__logo">Sikalo</p>
+        <nav class="header__nav">
+          <ul class="nav__items">
+            <li class="nav__item">
+              <a href="#portfolio__section" class="nav__content">portfolio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#competencies__section" class="nav__content">competencies</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services__section" class="nav__content">services</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contacts__section" class="nav__content">contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="js-burger-btn burger-btn_open"></button>
+      </div>
+      <p class="nav__text-content">I develop websites for small and medium-sized 
           businesses that increase the prestige of the company 
           and allow you to stand out from the competition
-        </p>
-        <p class="nav__text-about-me">Hi!, I'm Vlad - front-end developer and website designer
-        </p>
+      </p>
+      <p class="nav__text-about-me">Hi!, I'm Vlad - front-end developer and website designer
+      </p>
+    </div>
+  </header>
+
+  <div class="js-burger burger">
+    <div class="burger__content">
+      <div class="burger__logo-wrapper">
+        <p class="nav__logo burger-logo ">Sikalo</p>
       </div>
+      <button class="burger__close-btn">
+        <img 
+          class="burger__btn-close-img" 
+          src="/images/close-burger-btn.png" 
+          alt="close cross button">
+      </button>
+      <nav class="header__nav-burger">
+        <ul class="nav__items-burger">
+          <li class="nav__item-burger">
+            <a href="#portfolio__section" class="nav__content-burger">portfolio</a>
+          </li>
+          <li class="nav__item">
+            <a href="#competencies__section" class="nav__content-burger">competencies</a>
+          </li>
+          <li class="nav__item">
+            <a href="#services__section" class="nav__content-burger">services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contacts__section" class="nav__content-burger">contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="js-burger__content burger__contacts">
+        <div class="burger__contacts-wrapper">
+          <p class="burger__contacts-text">contact me:</p>
+          <nav class="burger__contacts-nav">
+          <ul class="burger__contacts-lists">
+            <li class="burger__contacts-list">
+             <a class="burger__contacts-link" href="">instagram</a>
+           </li>
+           <li class="burger__contacts-list">
+             <a class="burger__contacts-link" href="https://t.me/Vlad1996S" target="_blank">telegram</a>
+           </li>
+           <li class="burger__contacts-list">
+             <a class="burger__contacts-link" href="mailto:vladislavmediol@gmail.com">mail</a>
+           </li>
+          </ul>
+        </nav>
+        </div>
+      </div>
+    </div>
   </div>
   <!--header content finish-->
   <!--header finish-->
@@ -225,5 +273,7 @@
   </footer>
   <!--footer finish-->
   <!--main finish-->
+
+  <script src="/scripts/burger.js"></script>
 </body>
 </html>

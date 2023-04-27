@@ -1,4 +1,5 @@
 @import "../styles/header.css";
+@import "../styles/burger.css";
 @import "../styles/portfolio.css";
 @import "../styles/competencies.css";
 @import "../styles/services.css";
@@ -19,6 +20,9 @@ body {
   font-style: normal;
   letter-spacing: -0.03em;
   background: black;
+}
+.body_fixed {
+  overflow: hidden;
 }
 .container {
   margin: 0 auto;
