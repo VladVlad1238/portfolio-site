@@ -59,6 +59,9 @@
   text-transform: uppercase;
   text-decoration: none;
 }
+.nav__content-burger:hover {
+  color: #1BFF07;
+}
 .burger__contacts {
   margin-bottom: 191px;
   padding-top: 91px;
@@ -81,6 +84,9 @@
   line-height: 46px;
   text-decoration: none;
   color: #FFFFFF;
+}
+.burger__contacts-link:hover {
+  color: #1BFF07;
 }
 @media (max-width: 1199px) {
   .burger-btn_open {
